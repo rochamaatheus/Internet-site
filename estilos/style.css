@@ -57,7 +57,7 @@ header > p {
 main {
     background-color: white;
     margin: auto;
-    min-width: 350px;
+    min-width: 360px;
     max-width: 900px;
     padding: 5px 20px 20px 20px;
 }
@@ -73,7 +73,7 @@ main h2 {
     font-size: 1.6em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     max-width: 850px;
-    min-width: 400px;
+    min-width: 360px;
     margin: 10px 0px 10px 0px;
     padding: 5px;
 }
