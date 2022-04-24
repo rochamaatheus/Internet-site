@@ -1,0 +1,49 @@
+	I N T E R N E T
+
+[Imagem]
+
+			COMO A INTERNET CHEGA NA MINHA CASA?
+
+	A internet surgiu durante o período da guerra fria (1949) para cumprir o papel de passar informações de maneira mais rápida.
+
+	>Dwight Eisenhouwer< funda a DARPA (Defense Advanced Research Projects Agency) - (Agência de Projetos de Pesquisa Avançada de Defesa).
+
+[Foto Dwight]
+
+	Criação da ARPANET, 1969, (No começo havia apenas 4 pontos ligados). Os computadores utilizados no começo foram: SDS 90, SDS Sigma 7, IBM 370/75 e DEC PDP-10 (O único militar).
+
+[Foto dos computadores]
+
+	Na época computadores diferentes falavam em linguagens diferentes, então, foi criada a NCP (Network Control Protocol) – (Protocolo de Controle de Rede), que visava a unificação da linguagem. No início o Protocolo era muito novo, portanto, apenas 2 pontos podiam conversar por vez.
+
+	Com o crescimento da rede, precisaram melhorar o Protocolo para ser usado por mais de uma pessoa. Bob Kahn foi um dos criadores, responsável pela criação do TCP (Transmission Control Protocol) – (Protocolo de Controle de Transmissão) que permitiria mais de uma conversação simultânea, porém, a rede de pontos já havia crescido muito e este protocolo tinha problemas em identificar qual ponto estava mandando a mensagem. Neste momento, entrou outro pesquisador chamado Vint Cerf, que criou um protocolo de identificação de máquinas, o IP (Internetwork Protocol) – (Protocolo de Rede). Este conjunto de protocolos foi apelidado de TCP/IP que, inclusive, é o protocolo utilizado até hoje, porém mais atualizado (Versão 6). A Versão 1 foi criada em 1972.
+
+	A ARPANET estava sendo usada por muitas pessoas, sendo os militares, universidades e pequenas empresas. Então, foi necessário separá-los. Foi criada a MILNET para os militares, NSFNET (National Science Foundation) para fins científicos e as redes comerciais.
+
+	As redes NSFNET e comerciais precisavam se comunicar, precisavam de uma intercomunicação (Interconnect Networking), que com o tempo foi abreviada para Internetworking e por fim Internet.
+
+	A Internet de hoje é conectada pelo mundo inteiro por Cabos Submarinos.
+
+[Imagem]
+
+	A Internet não é apenas uma rede e sim um CONJUNTO de redes.
+
+			COMO FUNCIONA A PASSAGEM DE INFORMAÇÕES HOJE EM DIA?
+
+	Usamos um sistema de Client (Cliente) e Server (Servidor).
+
+	Um exemplo de como isso funciona:
+	Imagine que o ponto A (Cliente) quer uma foto e o ponto B (Servidor) tem essa foto. Se o Servidor mandar para o ponto A essa imagem inteira a Internet do mundo todo pode ficar lenta. Então, como enviar? O TCP/IP é usado para isso. O IP localiza o Cliente que solicitou a foto e o TCP recorta a imagem em pequenos pacotes e os envia para o Cliente de forma aleatória. No lado do Cliente, após receber as informações, o TCP é responsável por organizar e reconstruir a imagem.
+
+	Podemos ver mais sobre isso no vídeo - “How Does The Internet Work?”
+
+[Vídeo]
+
+			A EVOLUÇÃO DA INTERNET
+
+	Em 1993, um inglês chamado >Tim Berners-Lee< evoluiu a tecnologia de HyperLink, criando o HTTP (HyperText Transfer Protocol) – (Protocolo de Transferência de Hipertexto), a linguagem HTML (HyperText Markup Language) – (Linguagem de Marcação de Hipertexto) e o WWW (World Wide Web) – (Rede Mundial de Computadores).
+	Para toda essa criação funcionar era necessário um navegador. Na época foi usado o Mosaic, criado por >Marc Andreessen<.
+
+[Foto Tim e Marc]
+
+	Como comentado anteriormente, a Internet é um conjunto de protocolos, e por mais que muitos pensam que “WWW” é a Internet, não é. World Wide Web é uma sub-rede da Internet que é especializada em HTTP. Em Suma, WWW é uma rede que está dentro da rede Internet.

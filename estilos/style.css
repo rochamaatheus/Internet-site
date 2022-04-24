@@ -1,0 +1,130 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #2B3DEB;
+    --cor1: #727FEE;
+    --cor2: #131C6B;
+    --cor3: #33396B;
+    --cor4: #2130B8;
+}
+
+.destaque a {
+    color: black;
+}
+
+.destaque {
+    background-color: var(--cor1);
+}
+
+.destaque::after {
+    content: '\1F517';
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: var(--cor3);
+    background-image: url('../imagens/internet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    margin: auto;
+    background-color: var(--cor2);
+    color: white;
+    text-align: center;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.30);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+header > h1 {
+    font-size: 2.5em;
+    padding: 15px;
+}
+
+header > p {
+    font-size: 1.1em;
+    padding-bottom: 20px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    min-width: 445px;
+    max-width: 900px;
+    padding: 5px 20px 20px 20px;
+}
+
+main p {
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 2em;
+}
+
+main h2 {
+    font-size: 1.6em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    max-width: 850px;
+    min-width: 440px;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+}
+
+main a {
+    color: var(--cor0);
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+img#img1 {
+    width: 300px;
+    display: inline-block;
+}
+
+img#img2 {
+    width: 300px;
+    display: inline-block;
+}
+
+div {
+    background-color: var(--cor3);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    background-color: var(--cor2);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
