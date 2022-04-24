@@ -57,7 +57,7 @@ header > p {
 main {
     background-color: white;
     margin: auto;
-    min-width: 400px;
+    min-width: 350px;
     max-width: 900px;
     padding: 5px 20px 20px 20px;
 }
